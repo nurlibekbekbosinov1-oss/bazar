@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block content %}<article class="detail">{% if ad.image %}<img src="/uploads/{{ad.image}}">{% endif %}<h1>{{ad.title}}</h1><h2>{{ad.price}}</h2><p><b>Haywan:</b> {{ad.animal}}</p><p><b>Orın:</b> {{ad.location}}</p><p><b>Baylanıs:</b> {{ad.phone}}</p><p>{{ad.description}}</p><a class="btn" href="/">Artqa</a></article>{% endblock %}
